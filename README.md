@@ -61,6 +61,18 @@ Djpy | -8.781487 | -1.940972 | -2.566044 | 0.0000 | stable
 #### 3.2 Analysis Determines the Lag Order
 The cointegration test and the estimation of the VAR model are affected by the lag order. In the process of judging the lag order, it can be combined with HQ, SC, AIC, FPE and LR criteria, and 8 is set for these criteria information. The lag order is shown in Figure below.
 
+Lag | LogL | LR | FPE | AIC | SC | HQ
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+0 | -38262.42 | NA | 5.68e+11 | 35.57919 | 35.58710 | 35.58208
+1 | -32580.57 | 11342.56 | 2.91e+09 | 30.30458 | 30.33623* | 30.31615 
+2 | -32556.18 | 48.63012 | 2.87e+09 | 30.29026 | 30.34565 | 30.31053 
+3 | -32539.69 | 32.81264 | 2.85e+09 | 30.28330 | 30.36244 | 30.31225 
+4 | -32516.63 | 45.84687 | 2.81e+09 | 30.27023 | 30.37310 | 30.30786 
+5 | -32500.60 | 31.81874 | 2.79e+09 | 30.26369 | 30.39030 | 30.31001 
+6 | -32440.23 | 119.6766 | 2.66e+09 | 30.21593 | 30.36628 | 30.27093 
+7 | -32417.90 | 44.19515* | 2.63e+09* | 30.20354* | 30.37763 | 30.26722* 
+8 | -32412.02 | 11.662936 | 2.64e+09 | 30.20644 | 30.40426 | 30.27881 
+
 #### 3.3 Johansen Cointegration Test
 In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Fig. 1, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Fig. 2. Analysis of Figure 2 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
 
