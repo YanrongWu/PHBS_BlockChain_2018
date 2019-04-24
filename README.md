@@ -44,6 +44,15 @@ Fourth, analyze the dynamic linkages of different variables through exchanges an
 #### 3.1 ADF Test
 To apply the VAR model, we need to ensure that all variables have a certain degree of stability. By examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan bitcoin prices are significantly less than the 1% and 5% horizontal thresholds. So their time series are unstable sequences. Therefore, it is necessary to negate the original hypothesis and use the method of splitting to process the data so that the ADF unit root test result is not more than 1% of the critical value, indicating that when the 99% confidence level is required, the original hypothesis needs to be rejected, and the split sequence is Without a unit root, the time series has a smoothness that conforms to the standard, that is, the three sequences are first-order single-integer sequences.
 
+Variable | ADF Statistic | 5%Critical Value | 1%Critical Value | P Value | Conclusion
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+usd | -1.503252 | -1.940972 | -2.566044 | 0.1245 | unstable 
+krw | -1.503228 | -1.940972 | -2.566044 | 0.1246 | unstable 
+jpy | -1.499779 | -1.940972 | -2.566044 | 0.1254 | unstable 
+Dusd | -8.764657 | -1.940972 | -2.566044 | 0.0000 | stable 
+Dkrw | -8.880809 | -1.940972 | -2.566044 | 0.0000 | stable 
+Djpy | -8.781487 | -1.940972 | -2.566044 | 0.0000 | stable 
+
 #### 3.2 Analysis Determines the Lag Order
 The cointegration test and the estimation of the VAR model are affected by the lag order. In the process of judging the lag order, it can be combined with HQ, SC, AIC, FPE and LR criteria, and 8 is set for these criteria information. The lag order is shown in Figure below.
 
