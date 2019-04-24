@@ -24,6 +24,7 @@ Assume the following：
 #### 2.3 VAR Model
 As a common econometric model, the vector autoregressive model is also called the VAR model. The model, proposed by Christo¬pher Sims, is a statistical model that needs to be based on data analysis. Using this model, the transformation of each endogenous variable in the system can be achieved. Using the obtained lag value function, the model can be established to realize the transformation from univariate to multivariate time series variables, and then a new "vector" autoregressive model is obtained. With a certain degree of stability, by examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan bitcoin prices are significantly less than 1% and 5%.
 The VAR model is:
+
 ![Fomula 3](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%203.png)
 
 Among them, Y_t is a column vector composed of bitcoin prices in the United States, South Korea, and Japan.
