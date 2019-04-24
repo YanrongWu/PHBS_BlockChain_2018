@@ -75,6 +75,7 @@ Lag | LogL | LR | FPE | AIC | SC | HQ
 
 #### 3.3 Johansen Cointegration Test
 In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Fig. 1, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Fig. 2. Analysis of Figure 2 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
+
 Hypothesized No. of CE(s) | Trace Statistic | 5%Critical Value | P Value | Max-Eigen Statistic | 5%Critical Value | P Value
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 None | 859.7598 | 29.79707 | 0.0000 | 458.7435 | 21.13162 | 0.0000
