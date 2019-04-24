@@ -41,7 +41,7 @@ Third, if it is determined that different variables have a cointegration relatio
 Fourth, analyze the dynamic linkages of different variables through exchanges and lagging market returns.
 
 Variable | Mean | Median | Maximum | Minimum | Skewness | Kurtosis | Std. Dev. | Jarque-Bera
------------- | ------------- | ------------- | ------------- | ------------- | -------------
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 usd | 2381.0900  | 620.9900 | 19665.39 | 67.8090 | 2.024991 | 7.295408 | 3392.244 | 3135.307
 krw | 2380.524 | 621.0051 | 19660.16 | 66.3586 | 2.025302 | 7.298469 | 3392.411 | 3138.127 
 jpy | 2382.826 | 620.2965 | 19714.90 | 66.2551 | 2.026480 | 7.307500 | 3396.303 | 3146.837 
