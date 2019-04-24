@@ -40,6 +40,11 @@ Second, research on Japan, South Korea and the United States Bitcoin to test whe
 Third, if it is determined that different variables have a cointegration relationship, then an error correction model is constructed based on the specific situation.
 Fourth, analyze the dynamic linkages of different variables through exchanges and lagging market returns.
 
+Variable | Mean | Median | Maximum | Minimum | Skewness | Kurtosis | Std. Dev. | Jarque-Bera
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+usd | 2381.0900  | 620.9900 | 19665.39 | 67.8090 | 2.024991 | 7.295408 | 3392.244 | 3135.307
+krw | 2380.524 | 621.0051 | 19660.16 | 66.3586 | 2.025302 | 7.298469 | 3392.411 | 3138.127 
+jpy | 2382.826 | 620.2965 | 19714.90 | 66.2551 | 2.026480 | 7.307500 | 3396.303 | 3146.837 
 
 #### 3.1 ADF Test
 To apply the VAR model, we need to ensure that all variables have a certain degree of stability. By examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan bitcoin prices are significantly less than the 1% and 5% horizontal thresholds. So their time series are unstable sequences. Therefore, it is necessary to negate the original hypothesis and use the method of splitting to process the data so that the ADF unit root test result is not more than 1% of the critical value, indicating that when the 99% confidence level is required, the original hypothesis needs to be rejected, and the split sequence is Without a unit root, the time series has a smoothness that conforms to the standard, that is, the three sequences are first-order single-integer sequences.
