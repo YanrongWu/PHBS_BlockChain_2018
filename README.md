@@ -15,15 +15,16 @@ Because of the decentralized structure, no central authority has direct control 
 #### 2.1	Stability Test 
 In order to judge the stability of a variable, a unit root test is required. Unit root test methods include Dickey and Fuller, Phillips-Perron, Augmented Dickey and Fuller (ADF), etc. In the DF test, the time series is assumed to be regarded as the error term of the first-order autoregressive process AR(1) with random white noise. During the test, a time series needs to be obtained by higher order autoregressive analysis. When adding the white noise characteristic of the random error term in DF, it should be confirmed that the random error term is white noise. With Dicky and Fuller, the existing inspection process can be extended to implement the ADF (Augment Dickey-Fuller) test. 
 Assume the following:
-
+![Fomula 1](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%201.png)
 #### 2.2 Cointegration Test
 The cointegration is actually a common random trend. To achieve the cointegration test, we also confirm the linear combination of a set of non-stationary sequences, and seek a stable equilibrium relationship. In special cases, a pseudo-regression problem will occur. At this point, there are two time series with the same trend component. To make the regressions corrected to get reliable results, use this relationship for cointegration. Through cointegration, it is possible to transfer long-term equilibrium relationships and find variable relationships that present a trend of randomness. Aiming at this kind of connection, the introduction of “relatively stable” can realize the reliability adjustment of the model. For example, if we want to apply the VAR model, we need to ensure that all variables have the random tendency of the unit root eliminated, so we can get error-corrected model.
 Assume the following：
-
+![Fomula 2](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%202.png)
 
 #### 2.3 VAR Model
 As a common econometric model, the vector autoregressive model is also called the VAR model. The model, proposed by Christo¬pher Sims, is a statistical model that needs to be based on data analysis. Using this model, the transformation of each endogenous variable in the system can be achieved. Using the obtained lag value function, the model can be established to realize the transformation from univariate to multivariate time series variables, and then a new "vector" autoregressive model is obtained. With a certain degree of stability, by examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan bitcoin prices are significantly less than 1% and 5%.
 The VAR model is:
+![Fomula 3](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%203.png)
 
 Among them, Y_t is a column vector composed of bitcoin prices in the United States, South Korea, and Japan.
 
