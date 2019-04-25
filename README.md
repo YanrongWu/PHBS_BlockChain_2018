@@ -7,6 +7,7 @@
 ### 1. Introduction
 Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 (coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
 
+Fig.1 Market 
 ![Market Cap](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/MarketCap.png)
 ![Exchange volume distribution](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Exchange%20volume%20distribution.png)
 
@@ -18,6 +19,7 @@ Because of the decentralized structure, no central authority has direct control 
 ### 2. Model
 #### 2.1	Stability Test 
 In order to judge the stability of a variable, a unit root test is required. Unit root test methods include Dickey and Fuller, Phillips-Perron, Augmented Dickey and Fuller (ADF), etc. In the DF test, the time series is assumed to be regarded as the error term of the first-order autoregressive process AR(1) with random white noise. During the test, a time series needs to be obtained by higher order autoregressive analysis. When adding the white noise characteristic of the random error term in DF, it should be confirmed that the random error term is white noise. With Dicky and Fuller, the existing inspection process can be extended to implement the ADF (Augment Dickey-Fuller) test. 
+
 Assume the following:
 ![Fomula 1](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%201.png)
 #### 2.2 Cointegration Test
