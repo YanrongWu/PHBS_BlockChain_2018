@@ -3,12 +3,12 @@
 ## Analysis of the dynamic relationship between the bitcoin prices of the United States, South Korea and Japan
 
 ### Abstract
-This paper analyzes the Bitcoin price relationship between the US, Korea and Japan. We collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean bitcoin markets. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese bitcoin transactions. For the sake of comparison, we also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，we show that before 2018, Asian market is the leader of bitcoin prices.
+This paper analyzes the Bitcoin price relationship between the US, Korea and Japan. We collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean bitcoin markets. For the sake of comparison, we also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，we show that before 2018, Asian market is the leader of bitcoin prices. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese bitcoin transactions.
 
 ### Keywords: Bitcoin, Cryptocurrencies, VEC Model, Price discovery
 
 ### 1. Introduction
-Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 (coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
+Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 [coinmarketcap.com](https://coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
 
 Fig.1 Market Cap& Price from 2013/05/01 to 2019/03/31（Source：[coinmarketcap.com](https://coinmarketcap.com)）
 ![Market Cap](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/MarketCap.png)
@@ -25,6 +25,8 @@ Fig.5 Japan Exchange
 ![Japan Exchange](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Japan%20Exchange.png)
 Fig.6 Korea Exchange
 ![Korea Exchange](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Korea%20Exchange.png)
+
+
 ### 2. Model
 #### 2.1	Stability Test 
 In order to judge the stability of a variable, a unit root test is required. Unit root test methods include Dickey and Fuller, Phillips-Perron, Augmented Dickey and Fuller (ADF), etc. In the DF test, the time series is assumed to be regarded as the error term of the first-order autoregressive process AR(1) with random white noise. During the test, a time series needs to be obtained by higher order autoregressive analysis. When adding the white noise characteristic of the random error term in DF, it should be confirmed that the random error term is white noise. With Dicky and Fuller, the existing inspection process can be extended to implement the ADF (Augment Dickey-Fuller) test. 
@@ -147,10 +149,18 @@ If we take the price data from 2013/5/1 to 2017/12/31, the result can be show:
 The Johansen cointegration test has shown that bitcoin prices in the United States, South Korea, and Japan have a balanced relationship that maintains good stability over a long period of time. So it can be known that there is an inherent equilibrium mechanism in the market. 
 When the market price in a certain period deviates from the long-term equilibrium point, the market equilibrium mechanism will continue to be in equilibrium through subsequent adjustments. Therefore, the error correction model can be constructed according to the above formula.
 In the short-term, the price of bitcoin in US has a significant impact on Korea and Japan bitcoin prices after a period of lag. There is a two-way causal relationship between Korean bitcoin prices and Japanese bitcoin prices. US Bitcoin market is the price leader.
+Compared with the results of data analysis before 2018, the United States was not the dominant player in the Bitcoin market before 2018. On the contrary, the trading volume of Bitcoin in Japan and South Korea accounted for more than half of the global transaction volume. At that time, the Asian market was the Bitcoin price leader. 
+In the short-term, South Korea and Japan Bitcoin prices have a significant impact on US Bitcoin prices after a period of lag, whereas US Bitcoin prices have no significant impact on Korea or Japan bitcoin prices. This is different from the results from the data from 2013/05/01 to 2019/03/31. We believe that it was due to the strong supervision of Bitcoin in South Korea at the end of 2017, and also because of the frequent outbreaks of Bitcoin exchanges in Japan, such as the bankruptcy of Mt. Gox, It also has a strongly negative impact on the Japan Bitcoin market transactions.
+
 
 ### Conclusion
-Based on the above empirical test and analysis of results, we can get the following conclusions: (1) The US, South Korea, and Japan bitcoin price time series do not have good stability, these time series have good stability in the first-order difference. The equilibrium relationship between these time series has long-term, and different variables will influence and interact with each other under the adjustment of long-term equilibrium relationship.
+Based on the above empirical test and analysis of results, we can get the following conclusions: 
+
+(1) The US, South Korea, and Japan bitcoin price time series do not have good stability, these time series have good stability in the first-order difference. The equilibrium relationship between these time series has long-term, and different variables will influence and interact with each other under the adjustment of long-term equilibrium relationship.
+
 (2) In the short term, the price fluctuations of bitcoin in US have a strong impact on South Korea and Japan bitcoin prices and play a guiding role in the bitcoin market; while Korean bitcoin price fluctuations have less impact on the US bitcoin markets.
+
+(3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market.
 
 ### References
 
