@@ -98,7 +98,12 @@ Lag | LogL | LR | FPE | AIC | SC | HQ
 7 | -32417.90 | 44.19515* | 2.63e+09* | 30.20354* | 30.37763 | 30.26722* 
 8 | -32412.02 | 11.662936 | 2.64e+09 | 30.20644 | 30.40426 | 30.27881 
 
-*Note:
+*Note:*indicates lag order selected by the criterion
+LR: sequential modified LR test statistic(each test at 5% level)
+FPE: Final prediction error
+AIC: Akaike information criterion
+SC: Schwarz information criterion
+HQ: Hannan-Quinn information criterion
 
 #### 3.3 Johansen Cointegration Test
 In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Fig. 1, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Fig. 2. Analysis of Figure 2 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
@@ -107,11 +112,13 @@ Table 4: Johansen Cointegration Test
 
 Hypothesized No. of CE(s) | Trace Statistic | 5%Critical Value | P Value | Max-Eigen Statistic | 5%Critical Value | P Value
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-None | 859.7598 | 29.79707 | 0.0000 | 458.7435 | 21.13162 | 0.0000
-At most 1 | 401.0163 | 15.49471 | 0.0000 | 398.4181 | 14.2646 | 0.0000 
-At most 2 | 2.598184 | 3.841466 | 0.1070 | 2.598184 | 3.841466 | 0.1070 
+None* | 859.7598 | 29.79707 | 0.0000 | 458.7435 | 21.13162 | 0.0000
+At most 1* | 401.0163 | 15.49471 | 0.0000 | 398.4181 | 14.2646 | 0.0000 
+At most 2* | 2.598184 | 3.841466 | 0.1070 | 2.598184 | 3.841466 | 0.1070 
 
-*Note:
+*Note: Trace test indicates 2 cointegrating eqn(s) at the 0.05 level
+Max-eigenvalue test indicates 2 cointegrating eqn(s) at the 0.05 level
+*denotes rejection of the hypothesis at the 0.05 level
 
 #### 3.4 VEC Model
 The Error Correction Model (VECM) is a VAR model based on cointegration. In the process of analyzing the dynamic relationship between bitcoin prices in Japan, Korea and the United States, an error correction model was constructed based on VAR.
