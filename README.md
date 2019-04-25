@@ -3,6 +3,9 @@
 ## Analysis of the dynamic relationship between the bitcoin prices of the United States, South Korea and Japan
 
 ### Abstract
+This paper analyzes the Bitcoin price relationship between the US, Korea and Japan. We collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean bitcoin markets. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese bitcoin transactions. For the sake of comparison, we also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，we show that before 2018, Asian market is the leader of bitcoin prices.
+
+### Keywords: Bitcoin, Cryptocurrencies, VEC Model, Price discovery
 
 ### 1. Introduction
 Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 (coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
