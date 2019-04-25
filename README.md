@@ -32,7 +32,7 @@ Most of the previous literature focused on the generation of bitcoin, the develo
 
 Cointegration test and the vector error correction (VEC) model are suitable technical methods to describe the dynamic effects of the interaction and disturbance between the non-stationary time series. Cointegration test is to determine whether there is a stable linear combination between a collection of non-stationary time series. The linear combination is called the cointegration equation, which reflects the long-run equilibrium relationship between these non-stationary variables. 
 
-Johansen established VAR model with cointegration constraints, which is known as vector error correction (VEC) model, to describe the long-run equilibrium relationship and short-term deviation and reveal the dynamic attribute of the system. Saša Žiković et al. (2014) use VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries.  So we can use VEC model to analyze the dynamic relationship between the bitcoin prices of US, Korea and Japan.
+Johansen established VAR model with cointegration constraints, which is known as vector error correction (VEC) model, to describe the long-run equilibrium relationship and short-term deviation and reveal the dynamic attribute of the system. Saša Žiković et al. (2014) use VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Kristoufek (2013) analyzes the search queries on Google Trends and Wikipedia affecting bitcoin and study their relationship，which shows that not only are the search queries and the bitcoin prices connected but there also exists a pronounced asymmetry. So we can also use VEC model to analyze the dynamic relationship between the bitcoin prices of US, Korea and Japan.
 
 
 
@@ -181,9 +181,9 @@ for Bitcoin. Economics, 312.
 
 [2] Bouoiyour, J., Selmi R. (2014), What Bitcoin Looks Like?, MPRA Paper, University Library of Munich, Germany
 
-[3] Yermack, D. (2015). Is bitcoin a real currency? an economic appraisal. National Bureau of Economic R
+[3] Kristoufek, L. (2013). BitCoin meets google trends and wikipedia: Quantifying the relationship between phenomena of the internet era. Scientific Reports (Nature Publisher Group), 3, 3415. doi:http://dx.doi.org/10.1038/srep03415
+
+[4] Yermack, D. (2015). Is bitcoin a real currency? an economic appraisal. National Bureau of Economic R
 esearch. doi:10.1016/B978-0-12-802117-0.00002-3
 
-[4] Zikovic, S., Zikovic, I. T., & Grdinic, M. (2014). A VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Croatian Operational Research Review, 5(2), 161-175. Retrieved from https://search.proquest.com/docview/1663359065?accountid=13151
-
-[5] Kristoufek, L. (2013). BitCoin meets google trends and wikipedia: Quantifying the relationship between phenomena of the internet era. Scientific Reports (Nature Publisher Group), 3, 3415. doi:http://dx.doi.org/10.1038/srep03415
+[5] Zikovic, S., Zikovic, I. T., & Grdinic, M. (2014). A VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Croatian Operational Research Review, 5(2), 161-175. Retrieved from https://search.proquest.com/docview/1663359065?accountid=13151
