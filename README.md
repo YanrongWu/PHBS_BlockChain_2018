@@ -179,8 +179,7 @@ Based on the above empirical test and analysis of results, we can get the follow
 [1] Buchholz, M., Delaney, J., Warren, J., et al. (2012). Bits and Bets, Information, Price Volatility,and Demand
 for Bitcoin. Economics, 312.
 
-[2] Bouoiyour, Jamal, and Refk Selmi. What Bitcoin Looks Like? . No. 58091. University Library of
-Munich, Germany, 2014.
+[2] Bouoiyour, J., Selmi R. (2014), What Bitcoin Looks Like?, MPRA Paper, University Library of Munich, Germany
 
 [3] Yermack, D. (2015). Is bitcoin a real currency? an economic appraisal. National Bureau of Economic R
 esearch. doi:10.1016/B978-0-12-802117-0.00002-3
