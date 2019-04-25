@@ -13,7 +13,8 @@ Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first p
 Fig.1 Market Cap& Price from 2013/05/01 to 2019/03/31（Source：[coinmarketcap.com](https://coinmarketcap.com)）
 ![Market Cap](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/MarketCap.png)
 ![Exchange volume distribution](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Exchange%20volume%20distribution.png)
-（Source：[data.bitcoinity.org](https://data.bitcoinity.org)）
+
+Data on 2019/03/31（Source：[data.bitcoinity.org](https://data.bitcoinity.org)）
 
 
 Because of the decentralized structure, no central authority has direct control over the Bitcoin exchange rate. However, regulatory issues still influence the exchange rate between Bitcoin and other currencies. One example is the process of withdrawing and depositing – the easier and cheaper this process is at a particular exchange, the more users it gains and the price at this exchange changes accordingly. This can lead to different prices at different exchanges, an effect we will discuss later.
@@ -99,10 +100,15 @@ Lag | LogL | LR | FPE | AIC | SC | HQ
 8 | -32412.02 | 11.662936 | 2.64e+09 | 30.20644 | 30.40426 | 30.27881 
 
 *Note:*indicates lag order selected by the criterion
+
 LR: sequential modified LR test statistic(each test at 5% level)
+
 FPE: Final prediction error
+
 AIC: Akaike information criterion
+
 SC: Schwarz information criterion
+
 HQ: Hannan-Quinn information criterion
 
 #### 3.3 Johansen Cointegration Test
@@ -117,7 +123,9 @@ At most 1* | 401.0163 | 15.49471 | 0.0000 | 398.4181 | 14.2646 | 0.0000
 At most 2* | 2.598184 | 3.841466 | 0.1070 | 2.598184 | 3.841466 | 0.1070 
 
 *Note: Trace test indicates 2 cointegrating eqn(s) at the 0.05 level
+
 Max-eigenvalue test indicates 2 cointegrating eqn(s) at the 0.05 level
+
 *denotes rejection of the hypothesis at the 0.05 level
 
 #### 3.4 VEC Model
