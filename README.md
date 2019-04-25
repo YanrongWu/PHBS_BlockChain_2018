@@ -94,6 +94,15 @@ At most 2 | 2.598184 | 3.841466 | 0.1070 | 2.598184 | 3.841466 | 0.1070
 
 #### 3.4 VEC Model
 The Error Correction Model (VECM) is a VAR model based on cointegration. In the process of analyzing the dynamic relationship between bitcoin prices in Japan, Korea and the United States, an error correction model was constructed based on VAR.
+Error Correction | D(USD) | D(KRW) | D(JPY) 
+------------ | ------------- | ------------- | ------------- 
+CointEq1 | -2.387016 (0.64291) [-3.71284] | 29.79707 | 0.0000 
+D(USD(-1)) | 401.0163 | 15.49471 | 0.0000 
+D(USD(-2)) | 2.598184 | 3.841466 | 0.1070 
+
+![Result 1](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Result%201.png)
+![Result 2](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Result%202.png)
+
 
 #### 3.5 Result Analysis
 The Johansen cointegration test has shown that bitcoin prices in the United States, South Korea, and Japan have a balanced relationship that maintains good stability over a long period of time. So it can be known that there is an inherent equilibrium mechanism in the market. 
