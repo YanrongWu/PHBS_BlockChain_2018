@@ -2,10 +2,13 @@
 
 ## Analysis of the dynamic relationship between the bitcoin prices of the United States, South Korea and Japan
 
+YanrongWu（Rhea） 1801212952 Fintech
+
 ### Abstract
 This paper analyzes the Bitcoin price relationship between the US, Korea and Japan. We collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean bitcoin markets. For the sake of comparison, we also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，we show that before 2018, Asian market is the leader of bitcoin prices. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese bitcoin transactions.
 
 ### Keywords: Bitcoin, Cryptocurrencies, VEC Model, Price discovery
+
 
 ### 1. Introduction
 Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 [(coinmarketcap.com)](https://coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
@@ -15,7 +18,6 @@ Fig.1 Market Cap& Price from 2013/05/01 to 2019/03/31（Source：[coinmarketcap.
 ![Exchange volume distribution](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Exchange%20volume%20distribution.png)
 
 Data on 2019/03/31（Source：[data.bitcoinity.org](https://data.bitcoinity.org)）
-
 
 Because of the decentralized structure, no central authority has direct control over the Bitcoin exchange rate. However, regulatory issues still influence the exchange rate between Bitcoin and other currencies. One example is the process of withdrawing and depositing – the easier and cheaper this process is at a particular exchange, the more users it gains and the price at this exchange changes accordingly. This can lead to different prices at different exchanges, an effect we will discuss later.
 
@@ -35,7 +37,6 @@ Cointegration test and the vector error correction (VEC) model are suitable tech
 Johansen established VAR model with cointegration constraints, which is known as vector error correction (VEC) model, to describe the long-run equilibrium relationship and short-term deviation and reveal the dynamic attribute of the system. Saša Žiković et al. (2014) use VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Kristoufek (2013) analyzes the search queries on Google Trends and Wikipedia affecting bitcoin and study their relationship，which shows that not only are the search queries and the bitcoin prices connected but there also exists a pronounced asymmetry. So we can also use VEC model to analyze the dynamic relationship between the bitcoin prices of US, Korea and Japan.
 
 
-
 ### 2. Model
 #### 2.1	Stability Test 
 In order to judge the stability of a variable, a unit root test is required. Unit root test methods include Dickey and Fuller, Phillips-Perron, Augmented Dickey and Fuller (ADF), etc. In the DF test, the time series is assumed to be regarded as the error term of the first-order autoregressive process AR(1) with random white noise. During the test, a time series needs to be obtained by higher order autoregressive analysis. When adding the white noise characteristic of the random error term in DF, it should be confirmed that the random error term is white noise. With Dicky and Fuller, the existing inspection process can be extended to implement the ADF (Augment Dickey-Fuller) test. 
@@ -43,6 +44,7 @@ In order to judge the stability of a variable, a unit root test is required. Uni
 Assume the following:
 
 ![Fomula 1](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%201.png)
+
 #### 2.2 Cointegration Test
 The cointegration is actually a common random trend. To achieve the cointegration test, we also confirm the linear combination of a set of non-stationary sequences, and seek a stable equilibrium relationship. In special cases, a pseudo-regression problem will occur. At this point, there are two time series with the same trend component. To make the regressions corrected to get reliable results, use this relationship for cointegration. Through cointegration, it is possible to transfer long-term equilibrium relationships and find variable relationships that present a trend of randomness. Aiming at this kind of connection, the introduction of “relatively stable” can realize the reliability adjustment of the model. For example, if we want to apply the VAR model, we need to ensure that all variables have the random tendency of the unit root eliminated, so we can get error-corrected model.
 
@@ -58,7 +60,6 @@ The VAR model is:
 ![Fomula 3](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Fomula%203.png)
 
 Among them, Y_t is a column vector composed of bitcoin prices in the United States, South Korea, and Japan.
-
 
 #### 2.4 VECM Model
 In the above VAR model, although the relationship between the variables is not stable, but there is a cointegration relationship with each other, the error correction model(VECM) can be obtained by transformation. ECMs are a theoretically-driven approach useful for estimating both short-term and long-term effects of one time series on another. The term error-correction relates to the fact that last-period's deviation from a long-run equilibrium, the error, influences its short-run dynamics. In addition, the error correction model can also determine whether the short-term relationship between variables is a permanent deviation or a temporary deviation.
