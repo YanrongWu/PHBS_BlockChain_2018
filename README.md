@@ -28,9 +28,12 @@ Fig.6 Korea Exchange
 
 The purpose of this paper is to further investigate this multi-exchange environment, especially the price discovery of bitcoin exchanges and to know which exchange has a guiding role in the bitcoin market. To decide whether an exchange is a leader or a follower, we can use the following way of thinking: if the exchange is related to a lagging market return, not the market return at that time, then the exchange is a follower. If the opposite is true, then the exchange will lead the market.
 
-Most of the previous literature focused on the generation of bitcoin, the development of regulatory policies, and the relationship between bitcoin prices at different exchanges, and how to test short-term causal links and correlation analysis. 
+Most of the previous literature focused on the generation of bitcoin, the development of regulatory policies, and the relationship between bitcoin prices at different exchanges, and how to test short-term causal links and correlation analysis. Buchholz et al. (2012) conclude that bitcoin price is mainly driven by its supply and demand in the market, the demand for bitcoin is mainly determined by the value of it as a medium of exchange. Yermack (2013) argues that bitcoin is an investment asset or speculative tool rather than a currency. Bitcoin price is highly correlated with its own trading characteristics, has no correlation with classical currencies, and is not influenced by macroeconomic events. Bouoiyour & Selmi (2014) attempt to describe bitcoin value by regressing its market price against a number of independent variables including the market price of gold and so on. This article aims to determine the relationship between the bitcoin prices in different exchanges. For the model selection, we use the VEC Model.
 
-In the research process, based on the previous research, the author uses the error correction model and cointegration analysis to conduct a deep analysis of how to test the econometric method to further study the interaction and influence degree between variables.
+Cointegration test and the vector error correction (VEC) model are suitable technical methods to describe the dynamic effects of the interaction and disturbance between the non-stationary time series. Cointegration test is to determine whether there is a stable linear combination between a collection of non-stationary time series. The linear combination is called the cointegration equation, which reflects the long-run equilibrium relationship between these non-stationary variables. 
+
+Johansen established VAR model with cointegration constraints, which is known as vector error correction (VEC) model, to describe the long-run equilibrium relationship and short-term deviation and reveal the dynamic attribute of the system. Saša Žiković et al. (2014) use VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries.  So we can use VEC model to analyze the dynamic relationship between the bitcoin prices of US, Korea and Japan.
+
 
 
 ### 2. Model
@@ -173,4 +176,9 @@ Based on the above empirical test and analysis of results, we can get the follow
 (3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of bitcoin.
 
 ### References
-
+[1] Buchholz M, Delaney J,Warren J,et al. Bits and Bets, Information, Price Volatility,and Demand
+for Bitcoin. Economics, 2012,312.
+[2] Yermack D. Is Bitcoin a real currency? An economic appraisal. National Bureau of Economic R
+esearch, 2013.
+[3] Bouoiyour, Jamal, and Refk Selmi. What Bitcoin Looks Like? . No. 58091. University Library of
+Munich, Germany, 2014.
