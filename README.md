@@ -26,6 +26,12 @@ Fig.5 Japan Exchange
 Fig.6 Korea Exchange
 ![Korea Exchange](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Korea%20Exchange.png)
 
+The purpose of this paper is to further investigate this multi-exchange environment, especially the price discovery of bitcoin exchanges and to know which exchange has a guiding role in the bitcoin market. To decide whether an exchange is a leader or a follower, we can use the following way of thinking: if the exchange is related to a lagging market return, not the market return at that time, then the exchange is a follower. If the opposite is true, then the exchange will lead the market.
+
+Most of the previous literature focused on the generation of bitcoin, the development of regulatory policies, and the relationship between bitcoin prices at different exchanges, and how to test short-term causal links and correlation analysis. 
+
+In the research process, based on the previous research, the author uses the error correction model and cointegration analysis to conduct a deep analysis of how to test the econometric method to further study the interaction and influence degree between variables.
+
 
 ### 2. Model
 #### 2.1	Stability Test 
@@ -164,7 +170,7 @@ Based on the above empirical test and analysis of results, we can get the follow
 
 (2) In the short term, the price fluctuations of bitcoin in US have a strong impact on South Korea and Japan bitcoin prices and play a guiding role in the bitcoin market; while Korean bitcoin price fluctuations have less impact on the US bitcoin markets.
 
-(3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market.
+(3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of bitcoin.
 
 ### References
 
