@@ -8,7 +8,7 @@ This paper analyzes the Bitcoin price relationship between the US, Korea and Jap
 ### Keywords: Bitcoin, Cryptocurrencies, VEC Model, Price discovery
 
 ### 1. Introduction
-Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 [coinmarketcap.com](https://coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
+Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 [(coinmarketcap.com)](https://coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
 
 Fig.1 Market Cap& Price from 2013/05/01 to 2019/03/31（Source：[coinmarketcap.com](https://coinmarketcap.com)）
 ![Market Cap](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/MarketCap.png)
@@ -114,7 +114,7 @@ SC: Schwarz information criterion
 HQ: Hannan-Quinn information criterion
 
 #### 3.3 Johansen Cointegration Test
-In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Fig. 1, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Fig. 2. Analysis of Figure 2 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
+In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Table 3, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Table 4. Analysis of Table 4 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
 
 Table 4: Johansen Cointegration Test
 
@@ -136,7 +136,7 @@ The Error Correction Model (VECM) is a VAR model based on cointegration. In the 
 Table 5: VEC Model
 
 ![VECM](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/VECM.png)
-*Note:
+*Note: Standard errors in()& t-statistics in []
 
 ![Result 1](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Result%201.png)
 
@@ -147,9 +147,13 @@ If we take the price data from 2013/5/1 to 2017/12/31, the result can be show:
 
 #### 3.5 Result Analysis
 The Johansen cointegration test has shown that bitcoin prices in the United States, South Korea, and Japan have a balanced relationship that maintains good stability over a long period of time. So it can be known that there is an inherent equilibrium mechanism in the market. 
+
 When the market price in a certain period deviates from the long-term equilibrium point, the market equilibrium mechanism will continue to be in equilibrium through subsequent adjustments. Therefore, the error correction model can be constructed according to the above formula.
+
 In the short-term, the price of bitcoin in US has a significant impact on Korea and Japan bitcoin prices after a period of lag. There is a two-way causal relationship between Korean bitcoin prices and Japanese bitcoin prices. US Bitcoin market is the price leader.
+
 Compared with the results of data analysis before 2018, the United States was not the dominant player in the Bitcoin market before 2018. On the contrary, the trading volume of Bitcoin in Japan and South Korea accounted for more than half of the global transaction volume. At that time, the Asian market was the Bitcoin price leader. 
+
 In the short-term, South Korea and Japan Bitcoin prices have a significant impact on US Bitcoin prices after a period of lag, whereas US Bitcoin prices have no significant impact on Korea or Japan bitcoin prices. This is different from the results from the data from 2013/05/01 to 2019/03/31. We believe that it was due to the strong supervision of Bitcoin in South Korea at the end of 2017, and also because of the frequent outbreaks of Bitcoin exchanges in Japan, such as the bankruptcy of Mt. Gox, It also has a strongly negative impact on the Japan Bitcoin market transactions.
 
 
