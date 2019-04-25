@@ -99,3 +99,4 @@ Based on the above empirical test and analysis of results, we can get the follow
 (2) In the short term, the price fluctuations of bitcoin in US have a strong impact on South Korea and Japan bitcoin prices and play a guiding role in the bitcoin market; while Korean bitcoin price fluctuations have less impact on the US bitcoin markets.
 
 ### References
+
