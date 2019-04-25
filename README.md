@@ -57,6 +57,9 @@ First, study whether the time series has stationarity and determine the model la
 Second, research on Japan, South Korea and the United States Bitcoin to test whether there is a cointegration relationship.
 Third, if it is determined that different variables have a cointegration relationship, then an error correction model is constructed based on the specific situation.
 Fourth, analyze the dynamic linkages of different variables through exchanges and lagging market returns.
+This paper uses Eviews software to analyze data.
+
+Table 1: Descriptive Statistics
 
 Variable | Mean | Median | Maximum | Minimum | Skewness | Kurtosis | Std. Dev. | Jarque-Bera
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
@@ -66,6 +69,8 @@ jpy | 2382.826 | 620.2965 | 19714.90 | 66.2551 | 2.026480 | 7.307500 | 3396.303 
 
 #### 3.1 ADF Test
 To apply the VAR model, we need to ensure that all variables have a certain degree of stability. By examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan bitcoin prices are significantly less than the 1% and 5% horizontal thresholds. So their time series are unstable sequences. Therefore, it is necessary to negate the original hypothesis and use the method of splitting to process the data so that the ADF unit root test result is not more than 1% of the critical value, indicating that when the 99% confidence level is required, the original hypothesis needs to be rejected, and the split sequence is Without a unit root, the time series has a smoothness that conforms to the standard, that is, the three sequences are first-order single-integer sequences.
+
+Table 2: ADF Statistics
 
 Variable | ADF Statistic | 5%Critical Value | 1%Critical Value | P Value | Conclusion
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
@@ -77,7 +82,9 @@ Dkrw | -8.880809 | -1.940972 | -2.566044 | 0.0000 | stable
 Djpy | -8.781487 | -1.940972 | -2.566044 | 0.0000 | stable 
 
 #### 3.2 Analysis Determines the Lag Order
-The cointegration test and the estimation of the VAR model are affected by the lag order. In the process of judging the lag order, it can be combined with HQ, SC, AIC, FPE and LR criteria, and 8 is set for these criteria information. The lag order is shown in Figure below.
+The cointegration test and the estimation of the VAR model are affected by the lag order. In the process of judging the lag order, it can be combined with HQ, SC, AIC, FPE and LR criteria, and 8 is set for these criteria information. The lag order is shown in the table below.
+
+Table 3: Lag determination
 
 Lag | LogL | LR | FPE | AIC | SC | HQ
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
@@ -91,8 +98,12 @@ Lag | LogL | LR | FPE | AIC | SC | HQ
 7 | -32417.90 | 44.19515* | 2.63e+09* | 30.20354* | 30.37763 | 30.26722* 
 8 | -32412.02 | 11.662936 | 2.64e+09 | 30.20644 | 30.40426 | 30.27881 
 
+*Note:
+
 #### 3.3 Johansen Cointegration Test
 In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Fig. 1, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Fig. 2. Analysis of Figure 2 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
+
+Table 4: Johansen Cointegration Test
 
 Hypothesized No. of CE(s) | Trace Statistic | 5%Critical Value | P Value | Max-Eigen Statistic | 5%Critical Value | P Value
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
@@ -100,10 +111,16 @@ None | 859.7598 | 29.79707 | 0.0000 | 458.7435 | 21.13162 | 0.0000
 At most 1 | 401.0163 | 15.49471 | 0.0000 | 398.4181 | 14.2646 | 0.0000 
 At most 2 | 2.598184 | 3.841466 | 0.1070 | 2.598184 | 3.841466 | 0.1070 
 
+*Note:
+
 #### 3.4 VEC Model
 The Error Correction Model (VECM) is a VAR model based on cointegration. In the process of analyzing the dynamic relationship between bitcoin prices in Japan, Korea and the United States, an error correction model was constructed based on VAR.
 
+Table 5: VEC Model
+
 ![VECM](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/VECM.png)
+*Note:
+
 ![Result 1](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Result%201.png)
 
 If we take the price data from 2013/5/1 to 2017/12/31, the result can be show:
