@@ -14,7 +14,7 @@ Fig.1 Market Cap& Price from 2013/05/01 to 2019/03/31（Source：[coinmarketcap.
 ![Market Cap](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/MarketCap.png)
 ![Exchange volume distribution](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Exchange%20volume%20distribution.png)
 
-Data on 2019/03/31（Source：[data.Bitcoinity.org](https://data.Bitcoinity.org)）
+Data on 2019/03/31（Source：[data.bitcoinity.org](https://data.bitcoinity.org)）
 
 
 Because of the decentralized structure, no central authority has direct control over the Bitcoin exchange rate. However, regulatory issues still influence the exchange rate between Bitcoin and other currencies. One example is the process of withdrawing and depositing – the easier and cheaper this process is at a particular exchange, the more users it gains and the price at this exchange changes accordingly. This can lead to different prices at different exchanges, an effect we will discuss later.
