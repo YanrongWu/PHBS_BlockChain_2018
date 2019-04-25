@@ -176,9 +176,15 @@ Based on the above empirical test and analysis of results, we can get the follow
 (3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of bitcoin.
 
 ### References
-[1] Buchholz M, Delaney J,Warren J,et al. Bits and Bets, Information, Price Volatility,and Demand
-for Bitcoin. Economics, 2012,312.
-[2] Yermack D. Is Bitcoin a real currency? An economic appraisal. National Bureau of Economic R
-esearch, 2013.
-[3] Bouoiyour, Jamal, and Refk Selmi. What Bitcoin Looks Like? . No. 58091. University Library of
+[1] Buchholz, M., Delaney, J., Warren, J., et al. (2012). Bits and Bets, Information, Price Volatility,and Demand
+for Bitcoin. Economics, 312.
+
+[2] Bouoiyour, Jamal, and Refk Selmi. What Bitcoin Looks Like? . No. 58091. University Library of
 Munich, Germany, 2014.
+
+[3] Yermack, D. (2015). Is bitcoin a real currency? an economic appraisal. National Bureau of Economic R
+esearch. doi:10.1016/B978-0-12-802117-0.00002-3
+
+[4] Zikovic, S., Zikovic, I. T., & Grdinic, M. (2014). A VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Croatian Operational Research Review, 5(2), 161-175. Retrieved from https://search.proquest.com/docview/1663359065?accountid=13151
+
+[5] Kristoufek, L. (2013). BitCoin meets google trends and wikipedia: Quantifying the relationship between phenomena of the internet era. Scientific Reports (Nature Publisher Group), 3, 3415. doi:http://dx.doi.org/10.1038/srep03415
