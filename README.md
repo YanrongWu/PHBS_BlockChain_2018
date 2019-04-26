@@ -1,17 +1,17 @@
 # PHBS_BlockChain_2018
 
-## Analysis of the dynamic relationship between the bitcoin prices of the United States, South Korea and Japan
+## Analysis of the dynamic relationship between the Bitcoin prices of the United States, South Korea and Japan
 
 YanrongWu（Rhea） 1801212952  Fintech
 
 ### Abstract
-This paper analyzes the Bitcoin price relationship between the US, Korea and Japan. We collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean bitcoin markets. For the sake of comparison, we also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，we show that before 2018, Asian market is the leader of bitcoin prices. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese bitcoin transactions.
+This paper analyzes the Bitcoin price relationship between the United States, Korea and Japan. I collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of Bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean Bitcoin markets. For the sake of comparison, I also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，the result could show that before 2018, Asian market is the leader of Bitcoin prices. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese Bitcoin transactions.
 
 ### Keywords: Bitcoin, Cryptocurrencies, VEC Model, Price discovery
 
 
 ### 1. Introduction
-Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 [(coinmarketcap.com)](https://coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
+Bitcoin is a decentralized peer-to-peer cryptocurrency protocol that was first proposed in a paper by Nakamoto (2008). Since its first launch in 2009, Bitcoin has evolved from an experimental commodity to a booming virtual currency that has received public attention. In 2013, Bitcoin prices soared, making Bitcoin's market capitalization more than $1 billion, and rapidly growing to $217 billion at the end of 2017 [(coinmarketcap.com)](https://coinmarketcap.com). The Bitcoin user base is becoming more and more global and diversified. Due to regulations and other factors, the bitcoin market has fallen back in 2018. Currently, Bitcoin's market capitalization is around $92 billion.
 
 Fig.1 Market Cap& Price from 2013/05/01 to 2019/03/31（Source：[coinmarketcap.com](https://coinmarketcap.com)）
 ![Market Cap](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/MarketCap.png)
@@ -28,13 +28,13 @@ Fig.5 Japan Exchange
 Fig.6 Korea Exchange
 ![Korea Exchange](https://github.com/YanrongWu/PHBS_BlockChain_2018/blob/master/Korea%20Exchange.png)
 
-The purpose of this paper is to further investigate this multi-exchange environment, especially the price discovery of bitcoin exchanges and to know which exchange has a guiding role in the bitcoin market. To decide whether an exchange is a leader or a follower, we can use the following way of thinking: if the exchange is related to a lagging market return, not the market return at that time, then the exchange is a follower. If the opposite is true, then the exchange will lead the market.
+The purpose of this paper is to further investigate this multi-exchange environment, especially the price discovery of Bitcoin exchanges and to know which exchange has a guiding role in the Bitcoin market. To decide whether an exchange is a leader or a follower, we can use the following way of thinking: if the exchange is related to a lagging market return, not the market return at that time, then the exchange is a follower. If the opposite is true, then the exchange will lead the market.
 
-Most of the previous literature focused on the generation of bitcoin, the development of regulatory policies, and the relationship between bitcoin prices at different exchanges, and how to test short-term causal links and correlation analysis. Buchholz et al. (2012) conclude that bitcoin price is mainly driven by its supply and demand in the market, the demand for bitcoin is mainly determined by the value of it as a medium of exchange. Yermack (2013) argues that bitcoin is an investment asset or speculative tool rather than a currency. Bitcoin price is highly correlated with its own trading characteristics, has no correlation with classical currencies, and is not influenced by macroeconomic events. Bouoiyour & Selmi (2014) attempt to describe bitcoin value by regressing its market price against a number of independent variables including the market price of gold and so on. This article aims to determine the relationship between the bitcoin prices in different exchanges. For the model selection, we use the VEC Model.
+Most of the previous literature focused on the generation of Bitcoin, the development of regulatory policies, and the relationship between Bitcoin prices at different exchanges, and how to test short-term causal links and correlation analysis. Buchholz et al. (2012) conclude that Bitcoin price is mainly driven by its supply and demand in the market, the demand for Bitcoin is mainly determined by the value of it as a medium of exchange. Yermack (2013) argues that Bitcoin is an investment asset or speculative tool rather than a currency. Bitcoin price is highly correlated with its own trading characteristics, has no correlation with classical currencies, and is not influenced by macroeconomic events. Bouoiyour & Selmi (2014) attempt to describe Bitcoin value by regressing its market price against a number of independent variables including the market price of gold and so on. This article aims to determine the relationship between the Bitcoin prices in different exchanges. For the model selection, I decide to use the VEC Model.
 
 Cointegration test and the vector error correction (VEC) model are suitable technical methods to describe the dynamic effects of the interaction and disturbance between the non-stationary time series. Cointegration test is to determine whether there is a stable linear combination between a collection of non-stationary time series. The linear combination is called the cointegration equation, which reflects the long-run equilibrium relationship between these non-stationary variables. 
 
-Johansen established VAR model with cointegration constraints, which is known as vector error correction (VEC) model, to describe the long-run equilibrium relationship and short-term deviation and reveal the dynamic attribute of the system. Saša Žiković et al. (2014) use VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Kristoufek (2013) analyzes the search queries on Google Trends and Wikipedia affecting bitcoin and study their relationship，which shows that not only are the search queries and the bitcoin prices connected but there also exists a pronounced asymmetry. So we can also use VEC model to analyze the dynamic relationship between the bitcoin prices of US, Korea and Japan.
+Johansen established VAR model with cointegration constraints, which is known as vector error correction (VEC) model, to describe the long-run equilibrium relationship and short-term deviation and reveal the dynamic attribute of the system. Saša Žiković et al. (2014) use VECM approach to detangling growth, exports, imports and FDI knot in selected CEE countries. Kristoufek (2013) analyzes the search queries on Google Trends and Wikipedia affecting Bitcoin and study their relationship，which shows that not only are the search queries and the Bitcoin prices connected but there also exists a pronounced asymmetry. So we can also use VEC model to analyze the dynamic relationship between the Bitcoin prices of US, Korea and Japan.
 
 
 ### 2. Model
@@ -81,7 +81,7 @@ krw | 2380.524 | 621.0051 | 19660.16 | 66.3586 | 2.025302 | 7.298469 | 3392.411 
 jpy | 2382.826 | 620.2965 | 19714.90 | 66.2551 | 2.026480 | 7.307500 | 3396.303 | 3146.837 
 
 #### 3.1 ADF Test
-To apply the VAR model, we need to ensure that all variables have a certain degree of stability. By examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan bitcoin prices are significantly less than the 1% and 5% horizontal thresholds. So their time series are unstable sequences. Therefore, it is necessary to negate the original hypothesis and use the method of splitting to process the data so that the ADF unit root test result is not more than 1% of the critical value, indicating that when the 99% confidence level is required, the original hypothesis needs to be rejected, and the split sequence is Without a unit root, the time series has a smoothness that conforms to the standard, that is, the three sequences are first-order single-integer sequences.
+To apply the VAR model, we need to ensure that all variables have a certain degree of stability. By examining the ADF unit roots, we can know that the ADF unit roots of the US, South Korea, and Japan Bitcoin prices are significantly less than the 1% and 5% horizontal thresholds. So their time series are unstable sequences. Therefore, it is necessary to negate the original hypothesis and use the method of splitting to process the data so that the ADF unit root test result is not more than 1% of the critical value, indicating that when the 99% confidence level is required, the original hypothesis needs to be rejected, and the split sequence is Without a unit root, the time series has a smoothness that conforms to the standard, that is, the three sequences are first-order single-integer sequences.
 
 Table 2: ADF Statistics
 
@@ -124,7 +124,7 @@ SC: Schwarz information criterion
 HQ: Hannan-Quinn information criterion
 
 #### 3.3 Johansen Cointegration Test
-In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Table 3, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Table 4. Analysis of Table 4 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
+In the process of analyzing the cointegration relationship of different variables, this topic applies the method of cointegration test. According to the data of Table 3, the JJ test is performed under the condition of the eighth-order lag order, and the test result is shown in Table 4. Analysis of Table 4 shows that there are two cointegration relationships for the three variables at the 1% critical level. That is, the co-integration relationship of Bitcoin prices in the United States, South Korea, and Japan has a long-term nature.
 
 Table 4: Johansen Cointegration Test
 
@@ -141,7 +141,7 @@ Max-eigenvalue test indicates 2 cointegrating eqn(s) at the 0.05 level
 *denotes rejection of the hypothesis at the 0.05 level
 
 #### 3.4 VEC Model
-The Error Correction Model (VECM) is a VAR model based on cointegration. In the process of analyzing the dynamic relationship between bitcoin prices in Japan, Korea and the United States, an error correction model was constructed based on VAR.
+The Error Correction Model (VECM) is a VAR model based on cointegration. In the process of analyzing the dynamic relationship between Bitcoin prices in Japan, Korea and the United States, an error correction model was constructed based on VAR.
 
 Table 5: VEC Model
 
@@ -160,7 +160,7 @@ The Johansen cointegration test has shown that bitcoin prices in the United Stat
 
 When the market price in a certain period deviates from the long-term equilibrium point, the market equilibrium mechanism will continue to be in equilibrium through subsequent adjustments. Therefore, the error correction model can be constructed according to the above formula.
 
-In the short-term, the price of bitcoin in US has a significant impact on Korea and Japan bitcoin prices after a period of lag. There is a two-way causal relationship between Korean bitcoin prices and Japanese bitcoin prices. US Bitcoin market is the price leader.
+In the short-term, the price of Bitcoin in US has a significant impact on Korea and Japan Bitcoin prices after a period of lag. There is a two-way causal relationship between Korean Bitcoin prices and Japanese Bitcoin prices. US Bitcoin market is the price leader.
 
 Compared with the results of data analysis before 2018, the United States was not the dominant player in the Bitcoin market before 2018. On the contrary, the trading volume of Bitcoin in Japan and South Korea accounted for more than half of the global transaction volume. At that time, the Asian market was the Bitcoin price leader. 
 
@@ -170,11 +170,11 @@ In the short-term, South Korea and Japan Bitcoin prices have a significant impac
 ### Conclusion
 Based on the above empirical test and analysis of results, we can get the following conclusions: 
 
-(1) The US, South Korea, and Japan bitcoin price time series do not have good stability, these time series have good stability in the first-order difference. The equilibrium relationship between these time series has long-term, and different variables will influence and interact with each other under the adjustment of long-term equilibrium relationship.
+(1) The US, South Korea, and Japan Bitcoin price time series do not have good stability, these time series have good stability in the first-order difference. The equilibrium relationship between these time series has long-term, and different variables will influence and interact with each other under the adjustment of long-term equilibrium relationship.
 
-(2) In the short term, the price fluctuations of bitcoin in US have a strong impact on South Korea and Japan bitcoin prices and play a guiding role in the bitcoin market; while Korean bitcoin price fluctuations have less impact on the US bitcoin markets.
+(2) In the short term, the price fluctuations of Bitcoin in US have a strong impact on South Korea and Japan Bitcoin prices and play a guiding role in the Bitcoin market; while Korean Bitcoin price fluctuations have less impact on the US Bitcoin markets.
 
-(3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of bitcoin.
+(3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of Bitcoin.
 
 ### References
 [1] Buchholz, M., Delaney, J., Warren, J., et al. (2012). Bits and Bets, Information, Price Volatility,and Demand
