@@ -64,6 +64,8 @@ Among them, Y_t is a column vector composed of bitcoin prices in the United Stat
 #### 2.4 VECM Model
 In the above VAR model, although the relationship between the variables is not stable, but there is a cointegration relationship with each other, the error correction model(VECM) can be obtained by transformation. ECMs are a theoretically-driven approach useful for estimating both short-term and long-term effects of one time series on another. The term error-correction relates to the fact that last-period's deviation from a long-run equilibrium, the error, influences its short-run dynamics. In addition, the error correction model can also determine whether the short-term relationship between variables is a permanent deviation or a temporary deviation.
 
+This report focuses on empirical research, so does not describe much in method theory.
+
 ### 3. Empirics
 The empirical analysis of this paper consists of four steps:
 First, study whether the time series has stationarity and determine the model lag period.
@@ -160,7 +162,7 @@ The Johansen cointegration test has shown that bitcoin prices in the United Stat
 
 When the market price in a certain period deviates from the long-term equilibrium point, the market equilibrium mechanism will continue to be in equilibrium through subsequent adjustments. Therefore, the error correction model can be constructed according to the above formula.
 
-In the short-term, the price of Bitcoin in US has a significant impact on Korea and Japan Bitcoin prices after a period of lag. There is a two-way causal relationship between Korean Bitcoin prices and Japanese Bitcoin prices. US Bitcoin market is the price leader.
+During 2013/05/01-2019/03/31, the price of Bitcoin in US has a significant impact on Korea and Japan Bitcoin prices after a period of lag in the short-term. There is a two-way causal relationship between Korean Bitcoin prices and Japanese Bitcoin prices. US Bitcoin market is the price leader.
 
 Compared with the results of data analysis before 2018, the United States was not the dominant player in the Bitcoin market before 2018. On the contrary, the trading volume of Bitcoin in Japan and South Korea accounted for more than half of the global transaction volume. At that time, the Asian market was the Bitcoin price leader. 
 
@@ -172,9 +174,9 @@ Based on the above empirical test and analysis of results, we can get the follow
 
 (1) The US, South Korea, and Japan Bitcoin price time series do not have good stability, these time series have good stability in the first-order difference. The equilibrium relationship between these time series has long-term, and different variables will influence and interact with each other under the adjustment of long-term equilibrium relationship.
 
-(2) In the short term, the price fluctuations of Bitcoin in US have a strong impact on South Korea and Japan Bitcoin prices and play a guiding role in the Bitcoin market; while Korean Bitcoin price fluctuations have less impact on the US Bitcoin markets.
+(2) In the short term(2013/05/01-2019/03/31), the price fluctuations of Bitcoin in US have a strong impact on South Korea and Japan Bitcoin prices and play a guiding role in the Bitcoin market; while Korean Bitcoin price fluctuations have less impact on the US Bitcoin markets.
 
-(3)Using the data from 2013/05/01 to 2019/03/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of Bitcoin.
+(3)Using the data from 2013/05/01 to 2017/12/31, we can know during this period, US market isn't the price leader but Japan and Korea have a significant impact on US Bitcoin price after a period of lag. The reason for this difference may be due to the regulatory behavior of Bitcoin in the Asian market. We can alse use VEC model to analyze factors affecting the price of Bitcoin.
 
 ### References
 [1] Buchholz, M., Delaney, J., Warren, J., et al. (2012). Bits and Bets, Information, Price Volatility,and Demand
