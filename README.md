@@ -5,7 +5,7 @@
 YanrongWu（Rhea） 1801212952  Fintech
 
 ### Abstract
-This paper analyzes the Bitcoin price relationship between the United States, Korea and Japan. I collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of Bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean Bitcoin markets. For the sake of comparison, I also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，the result could show that before 2018, Asian market is the leader of Bitcoin prices. The reason may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese Bitcoin transactions.
+This paper analyzes the Bitcoin price relationship between the United States, Korea and Japan. I collect data on three currency pair prices for the period May 2013 to March 2019 and analyze of which currency market is the leader of Bitcoin prices using VEC model. At this stage, the results suggest that the US market has a profound impact on the Japanese and Korean Bitcoin markets. For the sake of comparison, I also study the data before the tightening of supervision in Korea and Japan. By collecting and analyzing prices for the period May 2013 to December 2017，the result could show that before 2018, Asian market is the leader of Bitcoin prices. The reason for this difference may be due to regulations in Korea (Dec 2017) and panic caused by unsafe accidents in Japanese Bitcoin transactions.
 
 ### Keywords: Bitcoin, Cryptocurrencies, VEC Model, Price discovery
 
